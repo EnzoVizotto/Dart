@@ -1,0 +1,21 @@
+.primeiro {
+   padding: 20px;
+}
+
+.gradient {
+   background: linear-gradient(89.82deg, rgba(0, 0, 0, 0.28) 0.9%, #FF0000 10.47%, rgba(255, 154, 3, 0.90625) 17.26%, rgba(229, 206, 3, 0.8125) 22.93%, rgba(61, 218, 6, 0.723958) 28.76%, rgba(6, 186, 197, 0.65625) 34.6%, rgba(9, 5, 176, 0.583333) 43.28%, rgba(114, 4, 152, 0.505208) 49.65%, rgba(130, 4, 64, 0.432292) 56.56%, #000000 98.94%);
+   /* height: 360px; */
+}
+
+.button {
+   width: 363px;
+   height: 86px;
+   background-color: #abe066;
+   position: absolute;
+}
+
+.dart {
+   width: 579px;
+   padding: 59px 804px 59px 57px;
+}
+
