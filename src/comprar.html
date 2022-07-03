@@ -1,12 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-</head>
-<body>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>D'ART</title>
+      <link rel="stylesheet" href="..//css/style.css">
+      <link rel="stylesheet" href="..//css/reset.css">
+      <link rel="stylesheet" href="..//css/grid.css">
+      <link rel="stylesheet" href="../css/normalize.css">
+      <link rel="stylesheet" href="../dist/output.css">
+   </head>
+
+   <body class="bg-gray-900">
+      <!-- header -->
+      <header class="sticky top-0 z-10 bg-black w-full">   
+         <div class="h-32 flex items-center">
+            <a href="index.html"><img src="../imagem/icon.jpeg" class="h-14 w-20 mx-12"></a>
+            <ul class="text-white text-right text-xl ml-auto pr-24 flex items-center space-x-4 text-2xl ">                    
+               <li ><a href="index.html" class="px-16 font-medium tracking-wide fundo">HOME</a></li>
+               <li> 
+                  <div class="flex justify-center">
+                        <a href="comprar.html" class="px-16 font-medium tracking-wide fundo">COMPRAR</a>
+                        <div class="flex flex-col justify-center items-center mt-8 text-xl opacity-0 hover:opacity-100 absolute bg-black p-6 rounded-b-lg transition duration-500">
+                           <a href="pinturas.html" class="py-2">Pinturas a óleo</a>
+                           <a href="aquarela.html" class="py-2">Aquarela</a>
+                        </div>
+                  </div>             
+               </li>
+               <li><a href="sobre.html" class="px-16 font-medium tracking-wide fundo">SOBRE</a></li>
+               <li><a href="contato.html" class="px-16 font-medium tracking-wide fundo">CONTATO</a></li>
+            </ul>   
+         </div>      
+     </header>
    
-</body>
+      <section>
+         <div class="bg-gray-900">
+            <div class="grid grid-cols-2 text-center gap-28 mx-20 my-32 ">
+               
+               <!-- imagens -->   
+                  <div class="relative text-center quadro">
+                     <img src="../imagem/pintura.jpg" class="w-full h-full object-cover opacity-80">
+                     <div class="duration-500 ease-in-out hover:border-4 border-solid border-gray-200 absolute inset-y-0 w-full h-full p-9 px-4 flex items-center hover:bg-black hover:bg-opacity-60 justify-center">
+                        <a href="pinturas.html" class=" text-6xl font-bold p-6 text-gray-200 hover:text-white tracking-wide leading-tight">PINTURAS<br>A ÓLEO</a>
+                     </div>  
+                  </div>
+                  
+                  <div class="relative text-center quadro">
+                     <img src="../imagem/aquarela.jpg" class="w-full h-full object-cover">
+                     <div class="duration-500 ease-in-out hover:border-4 border-solid border-gray-200  absolute inset-y-0 w-full h-full p-9 px-4 flex items-center hover:bg-black hover:bg-opacity-60 justify-center">
+                        <a href="pinturas.html" class=" text-6xl font-bold p-6 text-gray-100 hover:text-white tracking-wide leading-tight">AQUARELA</a>
+                     </div>
+                  </div>
+      </section>
+      <footer>
+         <div class="bg-black h-80 flex items-center">
+            <div class="w-72 h-6 text-white m-auto text-center ">2022 D'ART All Rights Reserved
+               <div class="flex items-baseline justify-center space-x-9 mt-3">
+                  <a href="https://www.instagram.com/byron.solutions/" target="_blank"><img src="../imagem/instagram-2.png" class="h-14 w-14 my-6 mx-auto"></a>             
+                  <a href="https://www.instagram.com/byron.solutions/" target="_blank"><img src="../imagem/twitter.png" class="h-14 w-14 my-6 mx-auto"></a>             
+               </div>
+               <p class="mt-1 text-gray-300">Feito por Débora e Enzo</p>
+            </div>
+         </div>
+      </footer>
+   </body>
 </html>
