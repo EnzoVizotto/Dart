@@ -15,8 +15,26 @@
    padding-top: 16px;
 }
 
-.fonte {
+
+.dropdown:hover .dropdown-content {
+   opacity: 100%;
+ }
+
+.cont:hover .branco {
+   color: #ffff;
+}
+
+.font-dart {
    font-size: 170px;
+   font-family:'Times New Roman', Times, serif;
+}
+
+.font-slide {
+   font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+   font-family: helvetica;
 }
 
 .quadro {
@@ -29,6 +47,17 @@
    height: 296px;
 }
 
+.quadro-gal {
+   width: 700px;
+   height: 250px;
+}
+
+.quadro-slide {
+   width: 700px;
+   height: 500px;
+}
+
+
 .button {
    width: 363px;
    height: 86px;
@@ -37,4 +66,58 @@
 .dart {
    width: 579px;
    padding: 59px 804px 59px 57px;
+}
+
+/* Javascript*/
+.js [data-slide] {
+    position: relative;
+}
+
+.js [data-slide] > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+}
+
+.js [data-slide] > .active {
+    position: relative;
+    opacity: 1;
+    transition: opacity 500ms;
+    z-index: 1;
+}
+
+.js [data-slide-nav]{
+    display: block;
+    text-align: center;
+}
+
+.js [data-slide-nav] button {
+    width: 15px;
+    height: 15px;
+    margin: 0 16px;
+    border: none;
+    padding: 0;
+    text-indent: -99px;
+    border-radius: 20px;
+    overflow: hidden ;
+    background: #1d1d1d;
+}
+
+.js [data-slide-nav] button.active {
+    background:rgba(88, 28, 135, 1);
+}
+
+.js [data-anime] {
+    opacity: 0;
+    transform: translate3d(0px, -20px, 0);
+}
+
+.js .fadeInDown {
+    transform: translate3d(0, -20px, 0);
+}
+
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: opacity 800ms, transform 800ms;
 }

@@ -10,6 +10,7 @@
       <link rel="stylesheet" href="..//css/grid.css">
       <link rel="stylesheet" href="../css/normalize.css">
       <link rel="stylesheet" href="../dist/output.css">
+      <script>document.documentElement.classList.add("js");</script>
    </head>
 
 
@@ -21,11 +22,11 @@
             <ul class="text-white text-right text-xl ml-auto pr-24 flex items-center space-x-4 text-2xl ">                    
                <li ><a href="index.html" class="px-16 font-medium tracking-wide fundo">HOME</a></li>
                <li> 
-                  <div class="flex justify-center">
+                  <div class="relative inline-block dropdown">
                         <a href="comprar.html" class="px-16 font-medium tracking-wide fundo">COMPRAR</a>
-                        <div class="flex flex-col justify-center items-center mt-8 text-xl opacity-0 hover:opacity-100 absolute bg-black p-6 rounded-b-lg transition duration-500">
-                           <a href="pinturas.html" class="py-2">Pinturas a óleo</a>
-                           <a href="aquarela.html" class="py-2">Aquarela</a>
+                        <div class="dropdown-content opacity-0 absolute block text-center p-5 ml-9 mt-4 z-10 text-xl bg-black rounded-b-lg transition duration-500">
+                           <a href="pinturas.html" class="py-2 block">Pinturas a óleo</a>
+                           <a href="aquarela.html" class="py-2 block">Aquarela</a>
                         </div>
                   </div>             
                </li>
@@ -38,99 +39,171 @@
      <!-- degradê -->
       <div class="gradient h-80">
          <div class="px-4 py-14 dart bottom-48 ml-8 h-80 flex items-center">
-            <h1 class="absolute text-white font-bold fonte">D'ART</h1>
+            <h1 class="absolute text-white tracking-wide font-bold font-dart">D'ART</h1>
          </div>
       </div>
       
       
-      <section>
-         <div class="bg-black">
+      <div class="bg-black">
 
-            <h2 class= "text-center container pb-20 pt-24 text-3xl text-white font-bold tracking-wider">GALERIA COMPLETA</h2>
-            <div class="grid grid-cols-3 grid-rows-3 text-center px-8 gap-20 mx-20 ">
-               
-               <!-- imagens -->   
-                  <div class="relative text-center">
-                     <img src="../imagem/pint-1.jpg" class="w-full h-full object-cover">
-                     <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                        <a href="comprar.html" class="text-xl leading-normal font-bold text-gray-100 p-8">NOME DA OBRA<br>Largura x altura<br>Óleo/aquarela</a>
-                     </div>  
-                  </div>
-                  
-                  <div class="relative text-center">
-                     <img src="../imagem/pint-2.webp" class="w-full h-full object-cover">
-                     <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                        <a href="comprar.html" class="text-xl leading-normal font-bold text-gray-100 p-8">NOME DA OBRA<br>Largura x altura<br>Óleo/aquarela</a>
-                     </div>
-                  </div>
-                  
-                  <div class="relative text-center">
-                     <img src="../imagem/pint-3.jpeg" class="w-full h-full object-cover">
-                     <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                        <a href="comprar.html" class="text-xl leading-normal font-bold text-gray-100 p-8">NOME DA OBRA<br>Largura x altura<br>Óleo/aquarela</a>
-                     </div>
-                  </div>
-              
-                  <div class= "relative text-center">
-                     <img src="../imagem/pint-4.jpg" class="w-full h-full object-cover">
-                     <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                        <a href="comprar.html" class="text-xl leading-normal font-bold text-gray-100 p-8">NOME DA OBRA<br>Largura x altura<br>Óleo/aquarela</a>
-                     </div>
-                  </div>
-
-                  <div class="relative text-center">
-                     <img src="../imagem/pint-5.webp" class="w-full h-full object-cover">
-                     <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                        <a href="comprar.html" class="text-xl leading-normal font-bold text-gray-100 p-8">NOME DA OBRA<br>Largura x altura<br>Óleo/aquarela</a>
-                     </div>
-                  </div>
-
-                  <div class="relative text-center">
-                     <img src="../imagem/pint-6.jpg" class="w-full h-full object-cover">
-                     <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                        <a href="comprar.html" class="text-xl leading-normal font-bold text-gray-100 p-8">NOME DA OBRA<br>Largura x altura<br>Óleo/aquarela</a>
-                     </div>
-                  </div>
-                                  
-                  <div class="relative text-center">
-                     <img src="../imagem/pint-7.jpg" class="w-full h-full object-cover">
-                     <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                        <a href="comprar.html" class="text-xl leading-normal font-bold text-gray-100 p-8">NOME DA OBRA<br>Largura x altura<br>Óleo/aquarela</a>
-                     </div>
-                  </div>
-
-                  <div class="relative text-center">
-                     <img src="../imagem/pint-8.jpg" class="w-full h-full object-cover">
-                     <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                        <a href="comprar.html" class="text-xl leading-normal font-bold text-gray-100 p-8">NOME DA OBRA<br>Largura x altura<br>Óleo/aquarela</a>
-                     </div>
-                  </div>
-
-                  <div class="relative text-center">
-                     <img src="../imagem/pint-9.webp" class="w-full h-full object-cover">
-                     <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                        <a href="comprar.html" class="text-xl leading-normal font-bold text-gray-100 p-8">NOME DA OBRA<br>Largura x altura<br>Óleo/aquarela</a>
-                     </div>
-                  </div>              
-            </div>              
-            <div class="flex items-center justify-center my-14 ">
-               <a href="comprar.html" class="button flex justify-center items-center text-white text-xl font-medium border-solid border-2 border-white hover:border-4 hover:font-bold ">COMPRAR AGORA</a>
-            </div>
-         </div>
-      </section>
-
-      <!-- footer -->
-      <footer>
-         <div class="gradient-2 h-80 flex items-center">
-            <div class="w-72 h-6 text-white m-auto text-center ">2022 D'ART All Rights Reserved
-               <div class="flex items-baseline justify-center space-x-9 mt-3">
-                  <a href="https://www.instagram.com/byron.solutions/" target="_blank"><img src="../imagem/instagram-2.png" class="h-14 w-14 my-6 mx-auto"></a>             
-                  <a href="https://www.instagram.com/byron.solutions/" target="_blank"><img src="../imagem/twitter.png" class="h-14 w-14 my-6 mx-auto"></a>             
+         <!-- slide -->
+         <h2 class= "text-center container pt-28 pb-8 text-3xl text-white font-bold tracking-wider">OBRAS EM DESTAQUE</h2>
+         <section class="" data-slide="quote">
+            <blockquote>
+               <div class=" bg-opacity-90 grid grid-cols-5 text-gray-100 mx-5 my-16 px-5 py-3 gap-x-14">
+                  <div class="col-span-3 flex items-center justify-center"><img src="../imagem/p1n.jpg" class="flex justify-center items-center quadro-slide object-cover"></div>
+                  <div class="col-span-2 flex  items-center text-4xl text-center">
+                     <div class="text-justify leading-loose space-y-8 tracking-wide font-slide">
+                        <p class="text-5xl pb-4">GLOWING WATER</p>
+                        <p class="leading-normal">ÓLEO SOBRE TELA <br> 250 x 200cm</p>
+                     </div> 
+                  </div> 
                </div>
-               <p class="mt-1 text-gray-300">Feito por Débora e Enzo</p>
-            </div>
-         </div>
+            </blockquote>
+
+            <blockquote>
+               <div class=" bg-opacity-90 grid grid-cols-5 text-gray-100 mx-5 my-16 px-5 py-3 gap-x-14">
+                  <div class="col-span-3 flex items-center justify-center"><img src="../imagem/p2n.jpg" class="flex justify-center items-center quadro-slide object-cover"></div>
+                  <div class="col-span-2 flex items-center text-4xl text-center">
+                     <div class="text-justify leading-loose space-y-8 tracking-wide font-slide">
+                        <p class="text-5xl pb-4">SOUL</p>
+                        <p class="leading-normal">ÓLEO SOBRE TELA <br> 150 x 100cm</p>
+                     </div>  
+                  </div> 
+               </div>
+            </blockquote>
+
+            <blockquote>
+               <div class=" bg-opacity-90 grid grid-cols-5 text-gray-100 mx-5 my-16 px-5 py-3 gap-x-14">
+                  <div class="col-span-3 flex items-center justify-center"><img src="../imagem/p4n.jpg" class="flex justify-center items-center quadro-slide object-cover"></div>
+                  <div class="col-span-2 flex items-center text-4xl text-center">
+                     <div class="text-justify leading-loose space-y-8 tracking-wide font-slide">
+                        <p class="text-5xl pb-4">REFLEXION</p>
+                        <p class="leading-normal">ÓLEO SOBRE PAINEL <br> 300 x 200cm</p>
+                     </div>  
+                  </div> 
+               </div>
+            </blockquote>
+         </section>
          
-      </footer>
+
+         <section>
+               <!-- imagens -->
+               <h2 class= "text-center container pb-20 pt-24 text-3xl text-white font-bold tracking-wider">GALERIA COMPLETA</h2>
+               <div class="grid grid-cols-3 grid-rows-3 text-center px-8 gap-20 mx-20 ">
+                  
+                     <div class="relative text-center">
+                        <img src="../imagem/gal-1.jpeg" class="quadro ">
+                        <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-50">
+                           <p class="text-xl leading-relaxed font-bold text-gray-100 p-8">NOME DA OBRA<br>Largura x altura<br>Óleo/aquarela</p>
+                           <div class="absolute bottom-4 duration-200 bg-opacity-70 bg-gray-800 py-2 px-28 text-white rounded-lg">
+                              <p class="text-lg tracking-wide font-semibold">Vendida</p>
+                           </div>
+                        </div>  
+                     </div>
+                     
+                     <div class="relative text-center">
+                        <img src="../imagem/gal-2.jpeg" class="quadro ">
+                        <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-50">
+                           <p class="text-xl leading-relaxed font-bold text-gray-100 p-8">NOME DA OBRA<br>Largura x altura<br>Óleo/aquarela</p>
+                           <div class="absolute bottom-4 duration-200 bg-opacity-70 bg-gray-800 py-2 px-28 text-white rounded-lg">
+                              <p class="text-lg tracking-wide font-semibold">Vendida</p>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="relative text-center">
+                        <img src="../imagem/pint-2.webp" class="quadro ">
+                        <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-50">
+                           <p class="text-xl leading-relaxed font-bold text-gray-100 p-8">NOME DA OBRA<br>Largura x altura<br>Óleo/aquarela</p>
+                           <div class="absolute bottom-4 duration-200 bg-opacity-70 bg-gray-800 py-2 px-28 text-white rounded-lg">
+                              <p class="text-lg tracking-wide font-semibold">Vendida</p>
+                           </div>
+                        </div>
+                     </div>
+               
+                     <div class= "relative text-center">
+                        <img src="../imagem/a1n.jpg" class="quadro ">
+                        <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-50">
+                           <p class="text-xl leading-relaxed font-bold text-gray-100 p-8">PAST EMOTIONS<br>250 x 200cm<br>Aquarela</p>
+                           <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
+                              <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="relative text-center">
+                        <img src="../imagem/gal-3.jpeg" class="quadro ">
+                        <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-50">
+                           <p class="text-xl leading-relaxed font-bold text-gray-100 p-8">NOME DA OBRA<br>Largura x altura<br>Óleo/aquarela</p>
+                           <div class="absolute bottom-4 duration-200 bg-opacity-70 bg-gray-800 py-2 px-28 text-white rounded-lg">
+                              <p class="text-lg tracking-wide font-semibold">Vendida</p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="relative text-center">
+                        <img src="../imagem/gal-4.jpeg" class="quadro ">
+                        <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-40">
+                           <p class="text-xl leading-relaxed font-bold text-gray-100 p-8">NOME DA OBRA<br>Largura x altura<br>Óleo/aquarela</p>
+                           <div class="absolute bottom-4 duration-200 bg-opacity-70 bg-gray-800 py-2 px-28 text-white rounded-lg">
+                              <p class="text-lg tracking-wide font-semibold">Vendida</p>
+                           </div>
+                        </div>
+                     </div>
+                                    
+                     <div class="relative text-center">
+                        <img src="../imagem/gal-5.jpeg" class="quadro ">
+                        <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-40">
+                           <p class="text-xl leading-relaxed font-bold text-gray-100 p-8">NOME DA OBRA<br>Largura x altura<br>Óleo/aquarela</p>
+                           <div class="absolute bottom-4 duration-200 bg-opacity-70 bg-gray-800 py-2 px-28 text-white rounded-lg">
+                              <p class="text-lg tracking-wide font-semibold">Vendida</p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="relative text-center">
+                        <img src="../imagem/a5n.jpg" class="quadro ">
+                        <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-40">
+                           <p class="text-xl leading-relaxed font-bold text-gray-100 p-8">CAR WINDOW<br>30 x 35cm<br>Aquarela</p>
+                           <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
+                              <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="relative text-center">
+                        <img src="../imagem/p7n.jpg" class="quadro ">
+                        <div class="transition duration-200 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
+                           <p class="text-xl leading-relaxed font-bold text-gray-100 p-8">PAST EMOTIONS<br>250 x 200cm<br>Óleo sobre tela</p>
+                           <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
+                              <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
+                           </div>
+                        </div>
+                     </div>              
+               </div>              
+               <div class="flex items-center justify-center my-14 ">
+                  <a href="comprar.html" class="button flex justify-center items-center text-white text-xl font-medium border-solid border-2 border-white hover:border-4 hover:font-bold ">COMPRAR AGORA</a>
+               </div>
+            
+         </section>
+      </div>
+
+         <!-- footer -->
+         <footer>
+            <div class="gradient-2 h-80 flex items-center">
+               <div class="w-72 h-6 text-white m-auto text-center ">2022 D'ART All Rights Reserved
+                  <div class="flex items-baseline justify-center space-x-9 mt-3">
+                     <a href="https://www.instagram.com/byron.solutions/" target="_blank"><img src="../imagem/instagram-2.png" class="h-14 w-14 my-6 mx-auto"></a>             
+                     <a href="https://www.instagram.com/byron.solutions/" target="_blank"><img src="../imagem/twitter.png" class="h-14 w-14 my-6 mx-auto"></a>             
+                  </div>
+                  <p class="mt-1 text-gray-300">Feito por Débora e Enzo</p>
+               </div>
+            </div>
+         </footer>
+
+         <script src="../js/simple-slide.js"></script>
+         <script src="../js/script.js"></script>
+
    </body>
 </html>
