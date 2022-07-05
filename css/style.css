@@ -9,10 +9,28 @@
    
 }
 
-.fundo:hover {
-   background: linear-gradient(270deg, rgba(0, 0, 0, 1) 0%, #FF0000 5.49%, rgba(255, 154, 3, 0.90625) 12.99%, rgba(229, 206, 3, 0.8125) 18.75%, rgba(61, 218, 6, 0.723958) 27.6%, rgba(6, 186, 197, 0.65625) 34.38%, rgba(9, 5, 176, 0.583333) 41.67%, rgba(114, 4, 152, 0.505208) 49.48%, rgba(130, 4, 64, 0.432292) 56.77%, #000000 100%);
-   padding-bottom: 16px;
+.fundo4:hover {
+   background: linear-gradient(270deg,#000000 0%,#FF0000 70%,#BBA602 95%);
+   padding-bottom: 20px;
    padding-top: 16px;
+   transition-duration: 0.2s;
+}
+.fundo3:hover {
+   background: linear-gradient(270deg, #BBA602 0%, #389F04 35.42%, #047B7F 76.26%, #04597A 100%);   padding-bottom: 20px;
+   padding-top: 16px;
+   transition-duration: 0.2s;
+}
+.fundo2:hover {
+   background: linear-gradient(270deg, #045078 0%, #040968 19.79%, #2A0254 76.26%, #390240 100%);
+   padding-bottom: 20px;
+   padding-top: 16px;
+   transition-duration: 0.2s;
+}
+.fundo1:hover{
+   background: linear-gradient(270deg,#390240 0%, #38011B 50%, #060103 100%);
+   padding-bottom: 20px;
+   padding-top: 16px;
+   transition-duration: 0.2s;
 }
 
 
@@ -41,11 +59,27 @@ h2 {
    width: 598px;
    height: 435px;
 }
-
+.quadro-s {
+   width: 230px;
+   height: 330px;
+}
 .quadro-2 {
    width: 392px;
    height: 296px;
 }
+.quadro-3 {
+   width: 526px;
+   height: 400px;
+   -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+   
+}
+.quadro-3:hover {
+   -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+ }
 
 .quadro-gal {
    width: 700px;
@@ -67,6 +101,7 @@ h2 {
    width: 579px;
    padding: 59px 804px 59px 57px;
 }
+
 
 /* Javascript*/
 .js [data-slide] {
@@ -121,3 +156,4 @@ h2 {
     transform: none;
     transition: opacity 800ms, transform 800ms;
 }
+
