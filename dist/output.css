@@ -605,13 +605,6 @@ video {
   position: sticky;
 }
 
-.inset-1\/2 {
-  top: 50%;
-  right: 50%;
-  bottom: 50%;
-  left: 50%;
-}
-
 .inset-y-0 {
   top: 0px;
   bottom: 0px;
@@ -839,8 +832,20 @@ video {
   height: 16rem;
 }
 
-.h-72 {
-  height: 18rem;
+.h-80 {
+  height: 20rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-64 {
+  height: 16rem;
 }
 
 .w-full {
@@ -877,6 +882,10 @@ video {
 
 .w-80 {
   width: 20rem;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .grid-cols-3 {
@@ -1167,6 +1176,11 @@ video {
   padding-right: 3rem;
 }
 
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1341,6 +1355,11 @@ video {
 
 .text-9xl {
   font-size: 8rem;
+  line-height: 1;
+}
+
+.text-5xl {
+  font-size: 3rem;
   line-height: 1;
 }
 

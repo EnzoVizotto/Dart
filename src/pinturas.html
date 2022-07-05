@@ -1,169 +1,178 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>D'ART</title>
-      <link rel="stylesheet" href="..//css/style.css">
-      <link rel="stylesheet" href="..//css/reset.css">
-      <link rel="stylesheet" href="..//css/grid.css">
-      <link rel="stylesheet" href="../css/normalize.css">
-      <link rel="stylesheet" href="../dist/output.css">
-   </head>
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>D'ART</title>
+   <link rel="stylesheet" href="..//css/style.css">
+   <link rel="stylesheet" href="..//css/reset.css">
+   <link rel="stylesheet" href="..//css/grid.css">
+   <link rel="stylesheet" href="../css/normalize.css">
+   <link rel="stylesheet" href="../dist/output.css">
+   <script>document.documentElement.classList.add("js");</script>
+   <link rel="shortcut icon" href="../favicon.ico">
+</head>
 
 
-   <body class="bg-black">
-      <!-- header -->
-      <header class="sticky top-0 z-10 bg-black w-full">   
-         <div class="h-32 flex items-center">
-            <a href="index.html"><img src="../imagem/icon.jpeg" class="h-14 w-20 mx-12"></a>
-            <ul class="text-white text-right text-xl ml-auto pr-24 flex items-center space-x-4 text-2xl">                    
-               <li><a href="index.html" class="px-16 font-medium tracking-wide">HOME</a></li>
-               <li> 
-                  <div class="flex justify-center">
-                        <a href="comprar.html" class="px-16 font-medium tracking-wide">COMPRAR</a>
-                        <div class="flex flex-col justify-center items-center mt-8 text-xl opacity-0 hover:opacity-100 absolute pt-70 bg-black p-6 rounded-b-lg transition duration-500">
-                           <a href="pinturas.html" class="py-2">Pinturas a óleo</a>
-                           <a href="aquarela.html" class="py-2">Aquarela</a>
-                        </div>
-                  </div>             
-               </li>
-               <li><a href="sobre.html" class="px-16 font-medium tracking-wide">SOBRE</a></li>
-               <li><a href="contato.html" class="px-16 font-medium tracking-wide">CONTATO</a></li>
-            </ul>   
-         </div>      
-     </header>
+<body class="bg-black">
+   <!-- header -->
+   <header class="sticky top-0 z-10 bg-black w-full">
+      <div class="h-32 flex items-center" data-anime="300">
+         <a href="index.html"><img src="../imagem/icon.jpeg" class="h-14 w-20 mx-12"></a>
+         <ul class="text-white text-right text-xl ml-auto pr-24 flex items-center space-x-4 text-2xl ">
+            <li><a href="index.html" class="px-12 font-medium tracking-wide fundo1 rounded-md">HOME</a></li>
+            <li>
+               <div class="relative inline-block dropdown fundo2 rounded-t-md">
+                  <a href="comprar.html" class="pad font-medium tracking-wide ">COMPRAR</a>
+                  <div class="dropdown-content item absolute block text-center hidden w-52 grid grid-rows-2 mt-5 z-10 text-xl rounded-b-md transition duration-500">
+                     <a href="pinturas.html" class="hover:bg-black py-3 block border-t-2 border-black border-solid">Pinturas a óleo</a>
+                     <a href="aquarela.html" class="hover:bg-black hover:rounded-b-md py-3 block">Aquarela</a>
+                  </div>
+               </div>
+            </li>
+            <li><a href="sobre.html" class="px-12 font-medium tracking-wide fundo3 rounded-md">SOBRE</a></li>
+            <li><a href="contato.html" class="px-12 font-medium tracking-wide fundo4 rounded-md">CONTATO</a></li>
+         </ul>
+      </div>
+   </header>
 
-     <section>
+   <section>
       <div class="bg-gray-900">
 
-         <h2 class= "text-center container py-20 text-3xl text-white font-bold">PINTURAS A ÓLEO</h2>
+         <h2 class="text-center container py-20 text-3xl text-white font-bold" data-anime="500">PINTURAS A ÓLEO</h2>
          <div class="grid grid-cols-3 grid-rows-3 text-center px-8 gap-16 gap-y-24 pb-44 mx-20">
-            
-               <!-- imagens -->
-               <div class="relative text-center quadro-2">
-                  <img src="../imagem/p1n.jpg" class="w-full h-full object-cover">
-                  <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                     <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
-                        <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
-                     </div>
-                  </div>
-                  <div class=" mt-2 text-white tracking-wide text-gradient-2">
-                     NOME <br> R$500,00
-                  </div>
-               </div>
-               
-               <div class="relative text-center quadro-2">
-                  <img src="../imagem/p2n.jpg" class="w-full h-full object-cover">
-                  <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                     <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
-                        <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
-                     </div>
-                  </div>
-                  <div class="mt-2 text-white tracking-wide ">
-                     NOME <br> R$500,00
-                  </div>
-               </div>
-               
-               <div class="relative text-center quadro-2">
-                  <img src="../imagem/p3n.jpg" class="w-full h-full object-cover">
-                  <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                     <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
-                        <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
-                     </div>
-                  </div>
-                  <div class="mt-2 text-white tracking-wide">
-                     NOME <br> R$500,00
-                  </div>
-               </div>
-           
-               <div class= "relative text-center quadro-2">
-                  <img src="../imagem/p4n.jpg" class="w-full h-full object-cover">
-                  <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                     <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
-                        <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
-                     </div>
-                  </div>
-                  <div class="mt-2 text-white tracking-wide">
-                     NOME <br> R$500,00
-                  </div>
-               </div>
 
-               <div class="relative text-center quadro-2">
-                  <img src="../imagem/p5n.jpg" class="w-full h-full object-cover">
-                  <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                     <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
-                        <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
-                     </div>
-                  </div>
-                  <div class="mt-2 text-white tracking-wide">
-                     NOME <br> R$500,00
+            <!-- imagens -->
+            <div class="relative text-center quadro-2" data-anime="700">
+               <img src="../imagem/p1n.jpg" class="w-full h-full object-cover">
+               <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
+                  <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
+                     <a href="comprarp1.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
                   </div>
                </div>
+               <div class=" mt-2 text-white tracking-wide text-gradient-2">
+                  GLOWING WATER <br> R$300,00
+               </div>
+            </div>
 
-               <div class="relative text-center quadro-2">
-                  <img src="../imagem/p6n.jpg" class="w-full h-full object-cover">
-                  <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                     <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
-                        <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
-                     </div>
-                  </div>
-                  <div class="mt-2 text-white tracking-wide">
-                     NOME <br> R$500,00
+            <div class="relative text-center quadro-2" data-anime="700">
+               <img src="../imagem/p2n.jpg" class="w-full h-full object-cover">
+               <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
+                  <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
+                     <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
                   </div>
                </div>
+               <div class="mt-2 text-white tracking-wide">
+                  SOUL <br> R$300,00
+               </div>
+            </div>
 
-               <div class="relative text-center quadro-2">
-                  <img src="../imagem/p7n.jpg" class="w-full h-full object-cover">
-                  <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                     <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
-                        <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
-                     </div>
-                  </div>
-                  <div class="mt-2 text-white tracking-wide">
-                     NOME <br> R$500,00
+            <div class="relative text-center quadro-2" data-anime="700">
+               <img src="../imagem/p3n.jpg" class="w-full h-full object-cover">
+               <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
+                  <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
+                     <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
                   </div>
                </div>
+               <div class="mt-2 text-white tracking-wide">
+                  ROUGH SEA <br> R$200,00
+               </div>
+            </div>
 
-               <div class="relative text-center quadro-2">
-                  <img src="../imagem/p8n.jpeg" class="w-full h-full object-cover">
-                  <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                     <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
-                        <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
-                     </div>
-                  </div>
-                  <div class="mt-2 text-white tracking-wide">
-                     NOME <br> R$500,00
+            <div class="relative text-center quadro-2" data-anime="900">
+               <img src="../imagem/p4n.jpg" class="w-full h-full object-cover">
+               <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
+                  <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
+                     <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
                   </div>
                </div>
+               <div class="mt-2 text-white tracking-wide">
+                  REFLEXION <br> R$500,00
+               </div>
+            </div>
 
-               <div class="relative text-center quadro-2">
-                  <img src="../imagem/p9n.jpg" class="w-full h-full object-cover">
-                  <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
-                     <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
-                        <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
-                     </div>
-                  </div>
-                  <div class="mt-2 text-white tracking-wide">
-                     NOME <br> R$500,00
+            <div class="relative text-center quadro-2" data-anime="900">
+               <img src="../imagem/p5n.jpg" class="w-full h-full object-cover">
+               <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
+                  <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
+                     <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
                   </div>
                </div>
+               <div class="mt-2 text-white tracking-wide">
+                  BLUE LAKE <br> R$200,00
+               </div>
+            </div>
 
-
-            </section>
-
-            <!-- footer -->
-            <footer>
-               <div class="bg-black h-80 flex items-center">
-                  <div class="w-72 h-6 text-white m-auto text-center ">2022 D'ART All Rights Reserved
-                     <div class="flex items-baseline justify-center space-x-9 mt-3">
-                        <a href="https://www.instagram.com/byron.solutions/" target="_blank"><img src="../imagem/instagram-2.png" class="h-14 w-14 my-6 mx-auto"></a>             
-                        <a href="https://www.instagram.com/byron.solutions/" target="_blank"><img src="../imagem/twitter.png" class="h-14 w-14 my-6 mx-auto"></a>             
-                     </div>
-                     <p class="mt-1 text-gray-300">Feito por Débora e Enzo</p>
+            <div class="relative text-center quadro-2" data-anime="900">
+               <img src="../imagem/p6n.jpg" class="w-full h-full object-cover">
+               <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
+                  <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
+                     <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
                   </div>
                </div>
-            </footer>
-   </body>
+               <div class="mt-2 text-white tracking-wide">
+                  NEW STREET <br> R$500,00
+               </div>
+            </div>
+
+            <div class="relative text-center quadro-2">
+               <img src="../imagem/p7n.jpg" class="w-full h-full object-cover">
+               <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
+                  <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
+                     <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
+                  </div>
+               </div>
+               <div class="mt-2 text-white tracking-wide">
+                  PAST EMOTIONS <br> R$300,00
+               </div>
+            </div>
+
+            <div class="relative text-center quadro-2">
+               <img src="../imagem/p8n.jpeg" class="w-full h-full object-cover">
+               <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
+                  <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
+                     <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
+                  </div>
+               </div>
+               <div class="mt-2 text-white tracking-wide">
+                  ISAC <br> R$500,00
+               </div>
+            </div>
+
+            <div class="relative text-center quadro-2">
+               <img src="../imagem/p9n.jpg" class="w-full h-full object-cover">
+               <div class="duration-500 absolute inset-y-0 w-full h-full opacity-0 hover:opacity-100 p-9 px-4 flex items-center justify-center bg-black bg-opacity-30">
+                  <div class="absolute bottom-4 duration-200 bg-opacity-90 bg-purple-500 py-2 px-16 text-white rounded-lg hover:translate-x-1 hover:-translate-y-1">
+                     <a href="comprar.html" class="text-lg tracking-wide font-semibold">Ver mais detalhes</a>
+                  </div>
+               </div>
+               <div class="mt-2 text-white tracking-wide">
+                  MILK WAY <br> R$400,00
+               </div>
+            </div>
+
+
+   </section>
+
+   <!-- footer -->
+   <footer>
+      <div class="bg-black h-60 flex items-center text-sm space-y-0">
+         <div class="w-72 h-6 text-white m-auto text-center ">2022 D'ART Todos Direitos Reservados
+            <p class="mt-3">Feito por Débora e Enzo</p>
+            <div class="flex items-baseline justify-center space-x-8 mt-5">
+               <a href="https://www.instagram.com/byron.solutions/" target="_blank"><img src="../imagem/instagram.png" class="h-6 w-6 mb-6"></a>
+               <a href="https://www.instagram.com/byron.solutions/" target="_blank"><img src="../imagem/twitter.png" class="h-6 w-6 mb-6"></a>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="../js/simple-anime.js"></script>
+   <script src="../js/simple-slide.js"></script>
+   <script src="../js/script.js"></script>
+
+</body>
+
 </html>
