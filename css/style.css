@@ -187,13 +187,8 @@ h2 {
    transform: translate3d(-10px, 0, 0);
 }
 
-/* .js .fadeInLeft:hover {
-   transform: translate3d(-20px, 0, 0);
-} */
-
-
 .js .anime {
     opacity: 1;
     transform: none;
-    transition: opacity 900ms, transform 800ms;
+    transition: opacity 1500ms, transform 800ms;
 }
