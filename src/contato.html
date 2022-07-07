@@ -20,7 +20,7 @@
    <header class="sticky top-0 z-10 bg-black w-full">
       <div class="h-32 flex items-center" data-anime="300">
          <a href="index.html"><img src="../imagem/icon.jpeg" class="h-14 w-20 mx-12"></a>
-         <ul class="text-white text-right text-xl ml-auto pr-24 flex items-center space-x-4 text-2xl ">
+         <ul class="text-white mobile:grid mobile:grid-cols-2 mobile:grid-rows-2 mobile:gap-y-4 text-right text-xl ml-auto pr-24 flex items-center space-x-4 text-2xl ">
             <li><a href="index.html" class="px-12 font-medium tracking-wide fundo1 rounded-md">HOME</a></li>
             <li>
                <div class="relative inline-block dropdown fundo2 rounded-t-md">
@@ -45,18 +45,18 @@
       <div class="text-center text-2xl text-white font-medium pb-10">Oi!! Sinta-se à vontade para entrar em contato para tirar dúvidas ou nos informar sobre problemas.</div>
    </div>
 
-   <section class="mx-24 my-14">
-      <form class="mx-24">
+   <section class="mx-24 my-14 mobile:mx-0">
+      <form class="mx-24 ">
          <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
          <input type="text" class="nao-aparece" name="leaveblank">
          <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
          <input type="text" class="nao-aparece" name="dontchange" value="http://">
-         <div class="text-white flex justify-center gap-x-20" data-anime="700">
-            <div class="w-1/2">
+         <div class="text-white flex justify-center gap-x-20 mobile:flex-col mobile:space-y-2" data-anime="700">
+            <div class="w-1/2 mobile:w-full">
                <label for="nome">Nome</label>
                <input type="text" id="nome" name="nome" class="bg-inherit border border-solid border-gray-500 py-2 px-3 rounded-md w-full" required>
             </div>
-            <div class="w-1/2">
+            <div class="w-1/2 mobile:w-full">
                <label for="email">E-mail</label>
                <input type="text" id="email" name="email" class="bg-inherit border border-solid border-gray-500 py-2 px-3 rounded-md w-full" required>
             </div>

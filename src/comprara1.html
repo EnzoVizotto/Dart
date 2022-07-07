@@ -21,7 +21,7 @@
   <header class="sticky top-0 z-10 bg-black w-full">
     <div class="h-32 flex items-center" data-anime="300">
       <a href="index.html"><img src="../imagem/icon.jpeg" class="h-14 w-20 mx-12"></a>
-      <ul class="text-white text-right text-xl ml-auto pr-24 flex items-center space-x-4 text-2xl ">
+      <ul class="text-white mobile:grid mobile:grid-cols-2 mobile:grid-rows-2 mobile:gap-y-4 text-right text-xl ml-auto pr-24 flex items-center space-x-4 text-2xl ">
         <li><a href="index.html" class="px-12 font-medium tracking-wide fundo1 rounded-md ">HOME</a></li>
         <li>
           <div class="relative inline-block dropdown fundo2 rounded-t-md">
@@ -37,15 +37,16 @@
       </ul>
     </div>
   </header>
+
   <section class="bg-gray-900 text-white">
     <div class="flex bg-gray-900 py-16 items-center pb-0 mb-0">
-      <div class="grid grid-cols-2 grid-rows-1 px-8 gap-x-16 pt-2 mx-20 mb-0 pb-0 h-min ">
+      <div class="grid grid-cols-2 grid-rows-1 mobile:grid-cols-1 tablet:grid-cols-1 px-8 gap-x-16 pt-2 mx-20 mb-0 pb-0 h-min ">
         <div data-anime="500">
-          <div class=" relative quadro-3 items-center">
-            <img src="../imagem/a1n.jpg" class="w-full h-full object-cover">
+          <div class=" relative quadro-3 items-center pl-2">
+            <img src="../imagem/a1n.jpg" class="w-full h-full mobile:w-96 object-cover">
           </div>
         </div>
-        <div class="relative text-justify text-white" data-anime="500">
+        <div class="relative text-justify text-white mobile:pt-3 tablet:pt-3" data-anime="500">
           <div class=" text-white mt-2 tracking-wide space-y-4">
             <h1 class="text-4xl font-bold">BLUE HORIZON</h1>
             <p class="text-2xl">
@@ -62,10 +63,10 @@
     </div>
     <div class="grid grid-cols-2 gap-x-16 bg-gray-900 items-center mb-16">
       <div class="flex items-center text-center justify-center ml-28 w-auto mt-10 mb-0 pb-0" data-anime="700">
-        <a href="" class="w-full button flex justify-center items-center text-white text-xl font-medium bg-black hover:bg-purple-900 rounded-md easy-in-out duration-300">ADICIONAR AO CARRINHO</a>
+        <a href="" class="w-full button flex justify-center items-center text-white text-xl mobile:text-base font-medium bg-black hover:bg-purple-900 rounded-md easy-in-out duration-300">ADICIONAR AO CARRINHO</a>
       </div>
       <div class="flex items-center justify-center mt-10 mb-0 pb-0 mr-28 w-auto" data-anime="700">
-        <a href="formulário.html" class="w-full button flex justify-center items-center text-white text-xl font-medium bg-black rounded-md hover:bg-purple-900 easy-in-out duration-300">COMPRAR AGORA</a>
+        <a href="formulário.html" class="w-full button flex justify-center items-center text-white mobile:text-center mobile:text-base text-xl font-medium bg-black rounded-md hover:bg-purple-900 easy-in-out duration-300">COMPRAR AGORA</a>
       </div>
     </div>
     <div class="mx-28 my-16 pb-24" data-anime="700">

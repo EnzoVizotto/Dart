@@ -20,7 +20,7 @@
    <header class="sticky top-0 z-10 bg-black w-full">
       <div class="h-32 flex items-center" data-anime="300">
          <a href="index.html"><img src="../imagem/icon.jpeg" class="h-14 w-20 mx-12"></a>
-         <ul class="text-white text-right text-xl ml-auto pr-24 flex items-center space-x-4 text-2xl ">
+         <ul class="text-white mobile:grid mobile:grid-cols-2 mobile:grid-rows-2 mobile:gap-y-4 text-right text-xl ml-auto pr-24 flex items-center space-x-4 text-2xl ">
             <li><a href="index.html" class="px-12 font-medium tracking-wide fundo1 rounded-md">HOME</a></li>
             <li>
                <div class="relative inline-block dropdown fundo2 rounded-t-md">
@@ -47,7 +47,7 @@
 
    <section class="mx-24 my-6" data-anime="700">
 
-      <form class="mx-24 border border-gray-500 border-solid p-4 rounded-md">
+      <form class="mx-24 mobile:mx-0 border border-gray-500 border-solid p-4 rounded-md">
          <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
          <input type="text" class="nao-aparece" name="leaveblank">
          <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
@@ -57,22 +57,22 @@
             <label for="nome">Nome</label>
             <input type="text" id="nome" name="nome" class="bg-inherit border border-solid border-gray-500 py-2 px-3 rounded-md w-full" required>
          </div>
-         <div class="text-white flex justify-center gap-x-12">
-            <div class="w-1/2">
+         <div class="text-white flex justify-center gap-x-12 mobile:flex-col">
+            <div class="w-1/2 mobile:w-full">
                <label for="telefone">Telefone</label>
                <input type="tel" id="telefone" name="telefone" class="bg-inherit border border-solid border-gray-500 py-2 px-3 rounded-md w-full" required>
             </div>
-            <div class="w-1/2">
+            <div class="w-1/2 mobile:w-full mobile:mt-2">
                <label for="cpf">CPF (apenas números)</label>
                <input type="number" id="cpf" name="cpf" class="bg-inherit border border-solid border-gray-500 py-2 px-3 rounded-md w-full" required>
             </div>
          </div>
-         <div class="text-white flex justify-center gap-x-12 mt-2">
-            <div class="w-1/2">
+         <div class="text-white flex justify-center gap-x-12 mt-2 mobile:flex-col">
+            <div class="w-1/2 mobile:w-full">
                <label for="email">E-mail</label>
                <input type="email" id="email" name="email" class="bg-inherit border border-solid border-gray-500 py-2 px-3 rounded-md w-full" required>
             </div>
-            <div class="w-1/2">
+            <div class="w-1/2 mobile:w-full mobile:mt-2">
                <label for="password">Senha</label>
                <input type="password" id="password" name="password" class="bg-inherit border border-solid border-gray-500 py-2 px-3 rounded-md w-full" required>
             </div>
