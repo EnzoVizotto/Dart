@@ -178,3 +178,8 @@ h2 {
     transform: none;
     transition: opacity 1500ms, transform 800ms;
 }
+.nao-aparece{
+   height: 0px;
+   position: absolute;
+   visibility: hidden;
+}
